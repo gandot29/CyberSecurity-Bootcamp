@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Bootcamp Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+    <h2>🛡 Bootcamp</h2>
+
+    <a href="#">🏠 Dashboard</a>
+
+    <a href="#">📚 Networking</a>
+
+    <a href="#">💻 Home Lab</a>
+
+    <a href="#">📖 Cheat Sheets</a>
+
+    <a href="#">❓ Quiz</a>
+
+    <a href="#">⚙ Settings</a>
+
+</div>
+
+<div class="main">
+
+<header>
+
+<h1>Cybersecurity Bootcamp Portal</h1>
+
+<p>Welcome Reagan 👋</p>
+
+</header>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Progress</h3>
+
+<h2>4%</h2>
+
+</div>
+
+<div class="card">
+
+<h3>XP</h3>
+
+<h2>100 XP</h2>
+
+</div>
+
+<div class="card">
+
+<h3>Current Level</h3>
+
+<h2>Level 1</h2>
+
+</div>
+
+<div class="card">
+
+<h3>Study Streak</h3>
+
+<h2>1 Day 🔥</h2>
+
+</div>
+
+</div>
+
+<section class="today">
+
+<h2>Today's Lesson</h2>
+
+<div class="lesson">
+
+<h3>Networking Foundations</h3>
+
+<p>Understand the OSI Model</p>
+
+<p>Estimated Time : 90 Minutes</p>
+
+<a
+href="https://www.youtube.com/watch?v=vv4y_uOneC0"
+target="_blank">
+
+Watch Professor Messer
+
+</a>
+
+<br><br>
+
+<a
+href="https://learn.microsoft.com/training/modules/network-fundamentals/"
+target="_blank">
+
+Microsoft Learn
+
+</a>
+
+<br><br>
+
+<a
+href="https://tryhackme.com/path/outline/presecurity"
+target="_blank">
+
+TryHackMe
+
+</a>
+
+<br><br>
+
+<button onclick="completeLesson()">
+
+✅ Complete Lesson (+100 XP)
+
+</button>
+
+</div>
+
+</section>
+
+<section class="progress">
+
+<h2>Overall Progress</h2>
+
+<canvas id="progressChart"></canvas>
+
+</section>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
