@@ -70,6 +70,16 @@ body{
 
 }
 
+.sidebar a.active{
+
+background:#2563eb;
+
+color:white;
+
+font-weight:600;
+
+}
+
 /* Main */
 
 .main{
@@ -248,7 +258,6 @@ min-height:auto;
 
 grid-template-columns:1fr;
 
-}
 
 }
 
@@ -277,3 +286,88 @@ button:hover{
 background:#16a34a;
 
 }
+
+.module-progress{
+
+margin:20px 0 30px;
+
+}
+
+.progress-header{
+
+display:flex;
+
+justify-content:space-between;
+
+margin-bottom:10px;
+
+color:#94a3b8;
+
+}
+
+.progress-bar{
+
+height:12px;
+
+background:#1e293b;
+
+border-radius:10px;
+
+overflow:hidden;
+
+}
+
+.progress-fill{
+
+width:7%;
+
+height:100%;
+
+background:#38bdf8;
+
+transition:.5s;
+
+}
+
+<div class="lesson-list">
+
+.lesson-list{
+
+display:grid;
+
+gap:12px;
+
+margin-top:20px;
+
+}
+
+.lesson-item{
+
+padding:18px;
+
+background:#1e293b;
+
+border-radius:12px;
+
+cursor:pointer;
+
+transition:.3s;
+
+border:1px solid #334155;
+
+}
+
+.lesson-item:hover{
+
+border-color:#38bdf8;
+
+transform:translateX(8px);
+
+}
+
+.roadmap{
+    position: sticky;
+    top:20px;
+}
+
+.completed{

@@ -48,9 +48,76 @@
 
 <h1>Networking Foundations</h1>
 
-<p>Module 1 of 12</p>
+<div class="module-progress">
+
+<div class="progress-header">
+
+<span>Module 1 of 12</span>
+
+<span>7% Complete</span>
+
+</div>
+
+<div class="progress-bar">
+
+<div class="progress-fill"></div>
+
+</div>
+
+</div>
 
 </header>
+
+<section class="panel">
+
+<h2>Networking Roadmap</h2>
+
+
+<div class="lesson-item completed">
+
+✔ Day 1 — OSI Model
+
+</div>
+
+<div class="lesson-item">
+
+🔒 Day 2 — TCP/IP
+
+</div>
+
+<div class="lesson-item">
+
+🔒 Day 3 — IPv4 & IPv6
+
+</div>
+
+<div class="lesson-item">
+
+🔒 Day 4 — DNS
+
+</div>
+
+<div class="lesson-item">
+
+🔒 Day 5 — DHCP
+
+</div>
+
+<div class="lesson-item">
+
+🔒 Day 6 — HTTP / HTTPS
+
+</div>
+
+<div class="lesson-item">
+
+🔒 Day 7 — Wireshark
+
+</div>
+
+</div>
+
+</section>
 
 <!-- Lesson Card -->
 
@@ -100,9 +167,13 @@ Understanding the OSI Model is one of the most important networking concepts in 
 
 <div>
 
-<strong>Status</strong>
+<span id="lessonStatus"
 
-<p>Not Started</p>
+class="status waiting">
+
+Not Started
+
+</span>
 
 </div>
 
@@ -191,6 +262,23 @@ arp -a
 
 <h2>🏢 Enterprise Scenario</h2>
 
+🏢 Enterprise Scenario
+
+Problem
+A user cannot log in.
+
+Symptoms
+• Authentication fails
+• Domain unreachable
+
+Investigation
+1. ipconfig /all
+2. nslookup domain.local
+3. ping dc01
+
+Expected Result
+DNS points to the correct domain controller.
+
 <p>
 
 A user reports they cannot log in to Active Directory.
@@ -204,11 +292,7 @@ Use:
 </p>
 
 <pre>
-nslookup
 
-ping
-
-ipconfig /all
 </pre>
 
 <p>
